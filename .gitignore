@@ -1,2 +1,7 @@
 /run.md
 /SKILL.md
+# Python cache files
+__pycache__/
+# Virtual environment
+venv/
+
