@@ -15,7 +15,10 @@ export default function Home() {
 
   useEffect(() => {
     fetchProducts()
-      .then((res) => setProducts(res.data))
+      .then((res) => {
+        console.log("Products response:", res);
+        setProducts(res.data);
+      })
       .catch((err) => {
         console.error("Failed to fetch products:", err);
         setError("Unable to load the collection at this time. Please try again later.");
