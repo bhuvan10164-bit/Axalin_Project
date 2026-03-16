@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(ecs=4od$5i5+h23_rk%^%=x0o9=c_y&+#tucil&50_^e!zz4b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['axalin-project.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
